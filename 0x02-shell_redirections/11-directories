@@ -1,2 +1,2 @@
 #1/bin/bash
-find . -type d -not -name '.' | wc -l
+dir_count=$(find . -type d \( ! -name . -a ! -name  .. \) -print | grep -c /)
