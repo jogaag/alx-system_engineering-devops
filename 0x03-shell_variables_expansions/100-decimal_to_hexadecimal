@@ -1,0 +1,4 @@
+#!/bin/bash
+hexadecimal=$(echo "obase=16; ibase=10; $decimal" | bc)
+
+
