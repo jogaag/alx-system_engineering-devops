@@ -1,2 +1,2 @@
 #!/bin/bash
-touch -m > school.mgc
+file -m school.mgc <filename>
